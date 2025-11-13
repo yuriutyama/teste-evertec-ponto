@@ -1,0 +1,14 @@
+.itens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.item .cidade {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.opcoes a {
+  margin: 0 1%;
+}
