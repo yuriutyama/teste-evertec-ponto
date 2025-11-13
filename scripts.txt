@@ -1,0 +1,74 @@
+IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'GuiaTuristico')
+BEGIN
+    CREATE DATABASE GuiaTuristico;
+END
+GO
+
+USE GuiaTuristico;
+GO
+
+BEGIN
+CREATE TABLE [dbo].[pontosturisticos] (
+    [Id]           INT           IDENTITY (1, 1) NOT NULL,
+    [Nome]         VARCHAR (255) NULL,
+    [Descricao]    VARCHAR (100) NULL,
+    [Localizacao]  VARCHAR (255) NULL,
+    [DataCadastro] DATETIME      NULL,
+    CONSTRAINT [PK_pontosturisticos] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+END
+GO
+
+CREATE OR ALTER PROCEDURE [dbo].[AdicionarPonto]
+    @Nome           VARCHAR(255), 
+    @Descricao      VARCHAR(100), 
+    @Localizacao    VARCHAR(255),
+    @DataCadastro   DATETIME
+AS
+BEGIN
+    INSERT INTO dbo.pontosturisticos (Nome, Descricao, Localizacao, DataCadastro)
+    VALUES (@Nome, @Descricao, @Localizacao, @DataCadastro);
+END
+GO
+
+CREATE OR ALTER PROCEDURE [dbo].[AlterarPonto]
+    @Id             INT,
+    @Nome           VARCHAR(255), 
+    @Descricao      VARCHAR(100), 
+    @Localizacao    VARCHAR(255)
+AS
+BEGIN
+    UPDATE dbo.pontosturisticos 
+    SET Nome = @Nome, Descricao = @Descricao, Localizacao = @Localizacao
+    WHERE Id = @Id;
+END
+GO
+
+CREATE OR ALTER PROCEDURE [dbo].[BuscarPonto]
+    @Id INT
+AS
+BEGIN
+    SELECT * FROM pontosturisticos WHERE Id = @Id;
+END
+GO
+
+CREATE OR ALTER PROCEDURE [dbo].[ListarPontos]
+AS
+BEGIN
+	SELECT
+	  Id,
+	  ISNULL(Nome,'')        AS Nome,
+	  ISNULL(Descricao,'')   AS Descricao,
+	  ISNULL(Localizacao,'') AS Localizacao,
+       	  DataCadastro           
+	FROM dbo.pontosturisticos;
+END
+GO
+
+CREATE OR ALTER PROCEDURE [dbo].[ExcluirPonto]
+    @Id             INT
+AS
+BEGIN
+    DELETE dbo.pontosturisticos 
+    WHERE Id = @Id;
+END

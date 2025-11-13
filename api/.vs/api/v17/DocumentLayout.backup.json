@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|c:\\users\\yurid\\downloads\\teste-evertec\\teste-evertec\\api\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|c:\\users\\yurid\\downloads\\teste-evertec\\teste-evertec\\api\\backend\\api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|solutionrelative:backend\\api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|c:\\users\\yurid\\downloads\\teste-evertec\\teste-evertec\\api\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|c:\\users\\yurid\\downloads\\teste-evertec\\teste-evertec\\api\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|c:\\users\\yurid\\downloads\\teste-evertec\\teste-evertec\\api\\backend\\_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|solutionrelative:backend\\_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|c:\\users\\yurid\\downloads\\teste-evertec\\teste-evertec\\api\\backend\\models\\pontoturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|solutionrelative:backend\\models\\pontoturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|c:\\users\\yurid\\downloads\\teste-evertec\\teste-evertec\\api\\backend\\controllers\\pontoturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3036FE4-4952-4228-A139-371EA1AA3845}|backend\\api.csproj|solutionrelative:backend\\controllers\\pontoturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T23:30:18.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "api",
+              "DocumentMoniker": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\api.csproj",
+              "RelativeDocumentMoniker": "backend\\api.csproj",
+              "ToolTip": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\api.csproj",
+              "RelativeToolTip": "backend\\api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-13T23:30:16.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T23:30:09.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_sql.cs",
+              "DocumentMoniker": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\_sql.cs",
+              "RelativeDocumentMoniker": "backend\\_sql.cs",
+              "ToolTip": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\_sql.cs",
+              "RelativeToolTip": "backend\\_sql.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:30:02.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PontoTuristico.cs",
+              "DocumentMoniker": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Models\\PontoTuristico.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\PontoTuristico.cs",
+              "ToolTip": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Models\\PontoTuristico.cs",
+              "RelativeToolTip": "backend\\Models\\PontoTuristico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:29:56.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PontoTuristicoController.cs",
+              "DocumentMoniker": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Controllers\\PontoTuristicoController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\PontoTuristicoController.cs",
+              "ToolTip": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Controllers\\PontoTuristicoController.cs",
+              "RelativeToolTip": "backend\\Controllers\\PontoTuristicoController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:35:16.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\yurid\\Downloads\\teste-evertec\\teste-evertec\\api\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:38:32.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
