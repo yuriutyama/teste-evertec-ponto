@@ -93,16 +93,19 @@ export default function Editar() {
     else if (!isEmptyString(referencia)) localizacao = referencia;
     else alert("Informe uma Cidade-UF ou uma referência.");
 
-    const novoPonto: PontoTuristico = {
+    const editarPonto: PontoTuristico = {
       Id: id,
       Nome: nome,
       Descricao: descricao,
       Localizacao: localizacao,
       DataCadastro: data,
     };
-    console.log(novoPonto);
+
     axios
-      .put("https://localhost:7291/api/PontoTuristico/" + id, novoPonto)
+      .put("https://localhost:7291/api/PontoTuristico/" + id, editarPonto)
+      .then(() => {
+        alert("Dados salvos com sucesso!");
+      })
       .catch(() => {
         alert("Ocorreu um erro, tente novamente!");
       });
